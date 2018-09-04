@@ -1,0 +1,36 @@
+.carousel {
+  border: 1px solid #333;
+  height: 156px;
+  padding:0 0 0 2px;
+  width: 762px;
+}
+.carousel#carousel-vertical {
+  height: 306px;
+  padding: 0;
+  width: auto;
+}
+.carousel#carousel-responsive {
+  width: auto;
+}
+.carousel li, 
+.carousel > div > div {
+  color: #fff;
+  padding:2px 0 2px 2px;
+}
+.carousel#carousel-vertical li, 
+.carousel#carousel-vertical > div > div {
+  padding:2px 2px 0 2px;
+}
+.carousel ul li:nth-child(even), 
+.carousel > div > div:nth-child(even) {
+  color:#666;
+}
+.carousel span {
+  background: #999;
+  display: block;
+  height: 150px;
+  font-size: 100px;
+  line-height: 150px;
+  text-align: center;
+  width: 150px;
+}
